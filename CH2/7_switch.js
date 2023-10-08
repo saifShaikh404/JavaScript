@@ -1,4 +1,4 @@
-// switch similar to switch the difference is its more readable
+// switch similar to if-else the difference is its more readable
 // note - always add break at the end of each case
 
 let age = 18

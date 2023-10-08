@@ -7,7 +7,7 @@
 //     console.log('not ok')
 // }
 
-// && returns true if one of the condition is true
+// || returns true if one of the condition is true
 // let age = 60
 // if(age > 40 || age < 50){
 //     console.log('Ok')
