@@ -5,3 +5,5 @@ Created by browser as the html load into the browser.
 Browser create object of html called 'document object'.
 
 In Document object there is model of complete html in tree like structure 
+
+// Foreach works with NodeList but not with HTMLcollection
