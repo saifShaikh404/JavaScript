@@ -1,5 +1,5 @@
 // call function is used to take one object reference to another
-
+"usestrict"
 let mainAir = {
     nameAirlines: "Indian Airlines",
     code: "IF32",
@@ -25,10 +25,10 @@ mainAir.book('Saif',115246)
 console.log(mainAir.bookings)
 
 subAir.book = mainAir.book
-subAir.book("Asheer", 524162)
+subAir.book("Akif", 524162)
 console.log(subAir.bookings)
 
-// Call - Method 1
+// Call - Method 1 // just eg
 // let callFun = mainAir.book
 // callFun.call(mainAir, "Akif", 114528) // Add value in booking
 // console.log(mainAir.bookings) 
