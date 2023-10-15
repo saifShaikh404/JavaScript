@@ -7,7 +7,7 @@ form.addEventListener('submit', (e) => {
 
     // console.log(form.email.value, form.password.value) // Accessing value by name
     // console.log(form.emailId.value, form.pass.value) // Accessing value by id
-    let pass = form.password.value.match(passCondition)
+    let pass = form.password.value.match(passCondition) // there is also a test() method which returns boolean and also values comes inside the method and regex comes before test()
     if(pass){
         console.log("condition is right")
     } else {
